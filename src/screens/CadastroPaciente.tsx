@@ -1,8 +1,7 @@
 import React from "react";
 import {
   View,
-  Text,
-  StyleSheet,
+  Text
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import styles from "../styles/cadastro.styles";

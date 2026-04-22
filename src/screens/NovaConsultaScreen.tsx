@@ -2,9 +2,9 @@
  * NovaConsultaScreen - Formulário de Nova Consulta
  * Permite agendar uma nova consulta (stub inicial)
  */
-import styles from "../styles/NovaConsulta.styles";
+import styles from "../styles/novaConsulta.styles";
 import React from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text,TouchableOpacity } from "react-native";
 
 type NovaConsultaScreenProps = {
   navigation: any;

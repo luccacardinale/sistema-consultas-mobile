@@ -2,7 +2,6 @@ import React from "react";
 import {
   View,
   Text,
-  StyleSheet,
 } from "react-native";
 import styles from "../styles/Login.styles";
 import { StatusBar } from "expo-status-bar";
