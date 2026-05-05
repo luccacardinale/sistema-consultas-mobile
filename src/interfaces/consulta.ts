@@ -1,5 +1,3 @@
-import { Medico } from "./medico";
-import { Paciente } from "../types/paciente";
 import { StatusConsulta, Especialidade } from "../types";
 
 export interface Consulta {
