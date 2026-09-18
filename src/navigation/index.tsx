@@ -9,6 +9,7 @@ import { View, Text, ActivityIndicator, StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { useAuth } from "../contexts/AuthContext";
+import { styles } from "../styles/input.styles";
 import {
     HomeScreen,
     ConsultasListScreen,
@@ -231,26 +232,4 @@ export default function Navigation() {
     );
 }
 
-const styles = StyleSheet.create({
-    loadingContainer: {
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "#fff",
-    },
-    headerRight: {
-        marginRight: 10,
-    },
-    userBadge: {
-        flexDirection: "row",
-        alignItems: "center",
-    },
-    userInfo: {
-        alignItems: "flex-end",
-    },
-    userName: {
-        color: "#fff",
-        fontSize: 12,
-        fontWeight: "bold",
-    },
-});
+

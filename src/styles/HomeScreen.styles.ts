@@ -1,65 +1,84 @@
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#f5f5f5",
   },
   scrollContent: {
-    padding: 20,
+    flexGrow: 1,
   },
   header: {
-    marginBottom: 32,
+    backgroundColor: "#79059C",
+    padding: 32,
+    paddingTop: 48,
     alignItems: "center",
+  },
+  icone: {
+    fontSize: 60,
+    marginBottom: 16,
   },
   titulo: {
     fontSize: 28,
     fontWeight: "bold",
-    color: "#79059C",
+    color: "#fff",
     marginBottom: 8,
   },
   subtitulo: {
     fontSize: 16,
-    color: "#666",
+    color: "#fff",
+    opacity: 0.9,
   },
-  menu: {
+  menuContainer: {
+    padding: 20,
     gap: 16,
   },
-  card: {
+  menuItem: {
     padding: 24,
     borderRadius: 16,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
+    boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.1)",
     elevation: 3,
   },
-  cardPrimario: {
-    backgroundColor: "#79059C",
-  },
-  cardSecundario: {
-    backgroundColor: "#4CAF50",
-  },
-  cardTerciario: {
-    backgroundColor: "#2196F3",
-  },
-  cardQuaternario: {
-    backgroundColor: "#FF9800",
-  },
-  cardIcone: {
-    fontSize: 48,
+  menuIcone: {
+    fontSize: 40,
     marginBottom: 12,
   },
-  cardTitulo: {
+  menuTitulo: {
     fontSize: 20,
     fontWeight: "bold",
     color: "#fff",
-    marginBottom: 8,
+    marginBottom: 4,
   },
-  cardDescricao: {
+  menuDescricao: {
     fontSize: 14,
     color: "#fff",
     opacity: 0.9,
   },
+  logoutButton: {
+    margin: 20,
+    marginTop: 32,
+    padding: 16,
+    backgroundColor: "#fff",
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: "#f44336",
+    alignItems: "center",
+  },
+  logoutText: {
+    color: "#f44336",
+    fontWeight: "bold",
+    fontSize: 16,
+  },
+  footer: {
+    padding: 20,
+    alignItems: "center",
+  },
+  footerText: {
+    fontSize: 12,
+    color: "#666",
+  },
+  footerSubtext: {
+    fontSize: 10,
+    color: "#999",
+  },
 });
-export default styles;
